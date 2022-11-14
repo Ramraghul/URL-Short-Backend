@@ -1,0 +1,27 @@
+{
+  "name": "url_shortner",
+  "version": "1.0.0",
+  "description": "Backend of Url shortner",
+  "main": "Server.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node Server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raghul",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.1",
+    "nanoid": "^4.0.0",
+    "nodemailer": "^6.8.0",
+    "randomstring": "^1.2.3"
+  }
+}
