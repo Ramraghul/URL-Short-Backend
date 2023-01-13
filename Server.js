@@ -9,7 +9,7 @@ const cors = require('cors');
 //Middleware;
 App.use(express.json());
 App.use(express.urlencoded({ extended: true }));
-App.use(cors({ origin: "https://url-short-1.netlify.app"}))
+App.use(cors({ origin: "*"}))
 
 
 //User Routes;
